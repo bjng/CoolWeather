@@ -1,5 +1,6 @@
 package com.myfounder.coolweather;
 
+
 import org.litepal.LitePalApplication;
 
 /**
