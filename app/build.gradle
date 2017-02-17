@@ -11,6 +11,16 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    productFlavors{
+        qih{
+            applicationId "com.myfounder.coolweather.qihu"
+        }
+
+        baidu{
+            applicationId "com.myfounder.coolweather.baidu"
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
